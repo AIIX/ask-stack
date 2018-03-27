@@ -1,0 +1,28 @@
+{
+    "name": "Ask Stack",
+    "skillMetadata": {
+        "sections": [
+            {
+                "name": "Stack API",
+                "fields": [
+                    {
+                        "type": "label",
+                        "label": "Ask Stack utilizes StackExchange's free API key, to grab your own key visit <a href='https://api.stackexchange.com/'>https://api.stackexchange.com/</a><br></br>"
+                    },
+                    {
+                        "name": "client_secret",
+                        "type": "text",
+                        "label": "Client Secret",
+                        "value": "2Fd8cNgLa0qcrjtweRFi0w(("
+                    },
+                    {
+                        "name": "key",
+                        "type": "text",
+                        "label": "Key",
+                        "value": "xKArz8QaWmX)DBxQTe4vrg(("
+                    }
+                ]
+            }
+        ]
+    }
+} 
