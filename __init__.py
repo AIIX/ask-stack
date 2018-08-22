@@ -38,7 +38,7 @@ class AskStackSkill(MycroftSkill):
         resultCount = len(globalObject['items'])
         resultSpeak = "Displaying {0} Results".format(resultCount)
         self.speak(resultSpeak)
-        self.enclosure.ws.emit(Message("stackresponseObject", {'desktop': {'data': response.text}}))
+        self.enclosure.bus.emit(Message("stackresponseObject", {'desktop': {'data': response.text}}))
         
     def stop(self):
         pass
